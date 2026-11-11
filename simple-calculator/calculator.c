@@ -34,10 +34,10 @@ int main(void)
             continue;
         }
 
-        printf("Enter first number: ");
+        printf("A: ");
         if (scanf("%lf", &a) != 1)
             break;
-        printf("Enter second number: ");
+        printf("B: ");
         if (scanf("%lf", &b) != 1)
             break;
 
